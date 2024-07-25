@@ -13,24 +13,23 @@ for i in range(1, 10):
 len(image_links)
 
 num_images = len(image_links)
-num_rows = (num_images + 2) // 3  # Calculate number of rows needed
+num_rows = (num_images + 2) // 3
 
-# Iterate through each row
+
 for i in range(num_rows):
-    # Create a row using columns
+
     col1, col2, col3 = st.columns(3)
-    
-    # Display images in the current row
+
     with col1:
         index = i * 3
         if index < num_images:
             st.image(image_links[index], use_column_width=True)
-    
+
     with col2:
         index = i * 3 + 1
         if index < num_images:
             st.image(image_links[index], use_column_width=True)
-    
+
     with col3:
         index = i * 3 + 2
         if index < num_images:
