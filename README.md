@@ -1,7 +1,7 @@
 
 # Free Faces Gallery
 
-A Streamlit web application that fetches and displays a collection of images from the Free Faces Gallery website. The images are fetched dynamically from the website and displayed in a grid format.
+A Streamlit web application that fetches and displays a collection of images from the [Free Faces Gallery](https://www.freefaces.gallery/) website. The images are fetched dynamically from the website and displayed in a grid format.
 
 ## Installation and Setup
 
